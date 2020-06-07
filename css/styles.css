@@ -1,0 +1,148 @@
+h1{
+    font-family: 'Pangolin', cursive;
+    font-size: 2x;
+    text-align: center;
+    padding-left: 5%;
+}
+
+h2{
+    font-family: 'Pangolin', cursive;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 2%;
+}
+h3{
+    font-family: 'Cormorant', serif;
+    color: #06623b;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Cormorant', serif;
+    color: #fff;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    margin: 0;
+}
+a:hover{
+    color:  #06623b;;
+}
+#button{
+    width: 10%;
+    border-radius: 25%;
+    height: 10%;
+}
+#button:hover{
+    background-color: #ece688;
+    border-color: #ece688;;
+}
+
+/* elementos entrada*/
+
+#menu{
+    padding-left: 40%;
+}
+#agc{
+    width: 100%;
+    height: 80%;
+    
+}
+@media (max-width:700px){
+    #agc{
+        height: 50%;
+    }
+    #papa{
+        width: 100%;
+    }
+    #button{
+        width: 17%;
+    }
+    #col_far{
+        width: 0;
+    }
+    #title{
+        margin-left: -10%;
+    }
+    
+    #poemas{
+        margin-top: 4%;
+    }
+    
+}
+/*ELEMENTS FEATURES*/
+#features, #salida{
+    margin-top: 1%;
+    padding: 5%;
+    background-color:#f1e96d;
+}
+.img_feat{
+    width: 80%;
+    border-radius: 5%;
+    margin-bottom: 10%;
+}
+#img_feat_2{
+    width: 90%;
+    margin-top: 12%;
+
+}
+#img_feat_3{
+    width: 100%;
+    margin-top: 23%;
+}
+
+#img_feat_5{
+    padding: 0;
+    margin-top: 20%;
+    width: 95%;
+}
+#img_feat_6{
+    margin-top: 8%;
+    width: 95%;
+}
+#img_feat_8,#img_feat_7{
+    width: 90%;
+}
+#img_feat_9{
+    margin-top: 3%;
+    width: 100%;
+}
+
+
+/*INFO*/
+#info{
+    margin-top: 1%;
+    padding: 3%;
+    background-color: #ffcbcb;
+}
+.row{
+    padding-top: 5%;
+}
+/*Libros*/
+#libros{
+    margin-top: 1%;
+    padding: 5%;
+    background-color: #93e6b4;
+    text-align: center;
+}
+.round_img{
+    width: 20%;
+    border-radius: 15%;
+    margin-bottom: 10%; 
+    margin-top: 5%;
+}
+#poemas{
+    transform: rotate(270deg);
+    width: 30%;
+    margin-top: 9.25%;
+}
+#iniciados{
+    transform: rotate(180deg);
+}
+/*SALIDA*/
+
+#farmaceutica{
+    padding-bottom: 3%;
+    padding-left: 35%;
+}
