@@ -53,11 +53,8 @@ a:hover{
         height: 50%;
     }
     #col_far, #papa{
-        width: 0;
-    }
-    #title{
-        font-size: 0.5x;
         
+    display: none;
     }
     
     #poemas{
