@@ -1,6 +1,7 @@
 <html lang="es" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -34,14 +35,20 @@
                         <li class="nav-item">
                                     <a class="nav-link" href="#libros">Libros</a>
                         </li>
-                                
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">Quienes somos</a>
+                </li>   
                     </ul>
                 </div>
             </nav>
     
             <img src="images/entrada.jpeg" alt="Farmacia" id="agc">
         </section>
-
+        <section id="intro">
+            <img src="images/menxu&papa.jpeg" class="img-fluid" alt="Responsive image">
+            <p style="padding-top: 5%;font-weight: bold;">La farmacia del poeta toma tierra en el mundo de la atención farmacéutica al paciente en el año 1982, donde abre sus puertas al público en el pueblo ribereño de Santa Marina del Rey, provincia de León. 
+En el año 2003 D. Antonio García Calvo vende - muy a su pesar- la oficina abierta en el medio rural y se hace cargo de la botica sita en Avda San Andrés en la capital leonesa, ejerciendo ininterrumpidamente 37 años, hasta que se hace cargo de esta Doña Carmen García Perez, manteniendo esa esencia inicial.</p>
+        </section>
         <section id="features">
             
                         <div class="row">
@@ -64,9 +71,6 @@
                                 <br>
                             </div> 
                             
-                       
-                    
-                        
                             <div class="col-lg-4 col-md-4 col-6">
                                 <img src="images/corazon.png" alt="corazon" class="img_feat" id="img_feat_4">   
                                 <h3>MEDICIONES</h3>
@@ -79,9 +83,9 @@
                                 <p>Si usted busca consejo acerca de alimentación y nutrición, estamos a su disposición.</p>
                                 <br>
                             </div> 
-                            <div class="col-lg-4 col-md-4 col-6">
+                            <div class="col-lg-4 col-md-4 col-6"><a  href="#libros">
                                 <img src="images/libros.jpg" alt="libros" class="img_feat" id="img_feat_6">   
-                                <h3>LITERATURA</h3>
+                                <h3>LITERATURA</h3></a>
                                 <p>Y por supuesto tenemos la colección literaria completa del farmacéutico Antonio García Calvo</p>
                                 <br>
                             </div> 
@@ -90,7 +94,7 @@
                             <div class="col-lg-4 col-md-4 col-6">
                                 <img src="images/bebe.jpg" alt="bebe" class="img_feat" id="img_feat_7">   
                                 <h3>PERFORACIONES DE OREJA</h3>
-                                <p>Para bebés y adultos. Perforación con pistola.</p>
+                                <p>Indolora para todas las edades.</p>
                                 <br>
                             </div> 
                             <div class="col-lg-4 col-md-4 col-6">
@@ -126,11 +130,13 @@
             <div class="row">
                 <div class="col-sm-6">
                     
-                    <form action="mailto:lafarmaciadelpoeta@gmail.com" method="post" enctype="text/plain">
+                    <form action="mailto:lafarmaciadelpoeta@gmail.com" method="post" enctype="text/plain" lang="es">
                     <h3>Pedido online con recogida en farmacia</h1>
                     <label>Nombre *</label>                        <input type="text" name="Nombre" required lang="es">
                     <br>
                     <label>Número de teléfono</label>        <input type="tel" name="Numero de telefono ">
+                    <br>
+                    <label>E-mail</label>        <input type="email" name="E-mail ">
                     <br>
                     <br>
                     <p>¿Cómo prefiere que le avisemos avisemos cuando su pedido esté listo para recoger?</p>
@@ -138,7 +144,7 @@
                     <label for="radio"><p>Whatsapp</p></label><input type="radio" name="Notificacion por Whatsapp">
                     <label for="radio"><p>E-mail</p></label><input type="radio" name="Notificacion por email">
                     <br>
-                    <p>⏳ Pronto dispondremos de nuestro servicio de envío a domicilio.</p>
+                    <!--<p>⏳ Pronto dispondremos de nuestro servicio de envío a domicilio.</p>-->
                     <p>🔔 Recuerde que para recoger su pedido en farmacia debe presentar las recetas si fueran necesarias.</p>
                     <br>
                 </div>
@@ -158,7 +164,7 @@
         <section id="libros">
             <h3>Colección literaria del farmacéutico y poeta Antonio García Calvo</h3>
             <img src="images/antonio_garcia_calvo.jpg" style="padding-bottom: 5%;" id="papa">
-
+            
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -210,7 +216,8 @@
                         <img src="images/libros/libro9.jpeg" class="round_img">
                     </div>
                 </div>
-    
+                    
+               
 
             
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

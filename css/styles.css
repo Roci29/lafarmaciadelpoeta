@@ -56,9 +56,9 @@ a:hover{
     #papa{
         width: 100%;
     }
-    #button{
+    /*#button{
         width: 17%;
-    }
+    }*/
     #col_far{
         width: 0;
     }
@@ -70,6 +70,12 @@ a:hover{
         margin-top: 4%;
     }
     
+}
+/*intro*/
+#intro{
+    margin-top: 1%;
+    background-color: #b6215a;
+    padding: 5%;
 }
 /*ELEMENTS FEATURES*/
 #features, #salida{
