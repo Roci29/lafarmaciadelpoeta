@@ -47,6 +47,12 @@ a:hover{
     
     
 }
+
+@media (max-width:500px){
+    #title{
+        font-size: smaller;
+    }
+}
 @media (max-width:700px){
    
     #agc{
